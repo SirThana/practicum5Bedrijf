@@ -9,10 +9,12 @@ public class Main {
         Bedrijf a = new Bedrijf("HvA");
         System.out.println(a.toString());
         Persoon martijn = new Persoon("Martijn");
+        Persoon emily = new Persoon("Emily");
 
 
         a.addWerknemer(martijn);
-//        System.out.println(a.getWerknemers());
+        a.addWerknemer(emily);
+        System.out.println(a.getWerknemers());
 
     }
 }

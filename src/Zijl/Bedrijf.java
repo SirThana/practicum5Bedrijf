@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Bedrijf {
     private String naam = "";
-    private ArrayList<String> werknemers;
+    private ArrayList<String> medewerkers = new ArrayList<>();
 
 
     public Bedrijf(String naam){
@@ -12,12 +12,12 @@ public class Bedrijf {
     }
 
     public void addWerknemer(Persoon persoon){
-
+        medewerkers.add(persoon.getNaam());
 
     }
 
     public ArrayList<String> getWerknemers(){
-        return this.werknemers;
+        return this.medewerkers;
     }
 
     public String toString(){
