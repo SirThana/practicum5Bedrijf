@@ -7,6 +7,9 @@ public class Main {
         Bedrijf a = new Bedrijf("HvA");
         System.out.println(a.getNaam());
 
+        /**
+         * comment made on linuxbox
+         */
 
     }
 }
