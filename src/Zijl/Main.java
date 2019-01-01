@@ -4,7 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Nothing to see here");
-        System.out.println("wMachine");
+        Bedrijf a = new Bedrijf("HvA");
+        System.out.println(a.getNaam());
+
+
     }
 }
