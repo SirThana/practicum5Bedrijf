@@ -10,7 +10,9 @@ public class Main {
         System.out.println(a.toString());
 
         Werknemer c = new Werknemer("Martijn",561674,1300);
-        System.out.println(c.getNaam());
+        System.out.println(c.toString());
+        a.addWerknemer(c);
+        System.out.println(a);
 
 
 

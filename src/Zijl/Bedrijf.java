@@ -21,7 +21,7 @@ public class Bedrijf {
     }
 
     public String toString(){
-        String a = this.naam;
+        String a = "Bedrijf: " + this.naam + " Heeft als werknemers: " + this.medewerkers;
         return a;
     }
 
