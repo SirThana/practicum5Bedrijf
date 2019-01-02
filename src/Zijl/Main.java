@@ -8,13 +8,12 @@ public class Main {
 
         Bedrijf a = new Bedrijf("HvA");
         System.out.println(a.toString());
-        Persoon martijn = new Persoon("Martijn");
-        Persoon emily = new Persoon("Emily");
+
+        Werknemer c = new Werknemer("Martijn",561674,1300);
+        System.out.println(c.getNaam());
 
 
-        a.addWerknemer(martijn);
-        a.addWerknemer(emily);
-        System.out.println(a.getWerknemers());
+
 
     }
 }

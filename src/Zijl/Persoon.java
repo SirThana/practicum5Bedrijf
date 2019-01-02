@@ -1,8 +1,7 @@
 package Zijl;
 
-import java.util.Collections;
 
-public class Persoon {
+public abstract class Persoon {
     private String naam = "";
 
 
@@ -18,6 +17,10 @@ public class Persoon {
 
     public String getNaam(){
         return this.naam;
+    }
+
+    public void setNaam(String naam){
+        this.naam = naam;
     }
 
 }
