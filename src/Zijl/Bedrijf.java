@@ -11,7 +11,7 @@ public class Bedrijf {
         this.naam = naam;
     }
 
-    public void addWerknemer(Persoon persoon){
+    public void neemInDienst(Persoon persoon){
         medewerkers.add(persoon.toString());
 
     }
