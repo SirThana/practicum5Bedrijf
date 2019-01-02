@@ -15,10 +15,6 @@ public abstract class Persoon {
         return a;
     }
 
-    public String getNaam(){
-        return this.naam;
-    }
-
     public void setNaam(String naam){
         this.naam = naam;
     }

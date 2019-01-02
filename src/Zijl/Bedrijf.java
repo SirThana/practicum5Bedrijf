@@ -12,7 +12,7 @@ public class Bedrijf {
     }
 
     public void addWerknemer(Persoon persoon){
-        medewerkers.add(persoon.getNaam());
+        medewerkers.add(persoon.toString());
 
     }
 
